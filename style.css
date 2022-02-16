@@ -1,11 +1,18 @@
 .ms_game_container {
     width: 500px;
-    height: 500px;
     background-color: grey;
 }
 
 .ms_container_bg {
     background-color: #7FFFD4;
     height: 870px;
+}
+
+.ms_gameCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    border: 1px solid black;
 }
 
